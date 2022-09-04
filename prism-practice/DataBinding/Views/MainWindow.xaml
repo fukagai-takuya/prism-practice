@@ -1,0 +1,15 @@
+﻿<metro:MetroWindow x:Class="DataBinding.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <Grid>
+        <StackPanel>
+            <Label FontSize="16" Content="{Binding DateTimeLabel}" />
+            <Button Content="Update Time" Command="{Binding DateTimeUpdateButton}"/>
+            <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        </StackPanel>
+    </Grid>
+</metro:MetroWindow>
