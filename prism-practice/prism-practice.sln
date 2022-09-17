@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankApp", "BlankApp\BlankA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialDesignWithMetro", "MaterialDesignWithMetro\MaterialDesignWithMetro.csproj", "{A84923EA-727F-4ABB-AC74-E91F6E50F7E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlView", "UserControlView\UserControlView.csproj", "{B987A511-A6CB-403B-AD59-728B4679EC91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserControlView", "UserControlView\UserControlView.csproj", "{B987A511-A6CB-403B-AD59-728B4679EC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigateToViewWithParameters", "NavigateToViewWithParameters\NavigateToViewWithParameters.csproj", "{3DBB1AEA-1826-4725-A98E-46732936B9AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B987A511-A6CB-403B-AD59-728B4679EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B987A511-A6CB-403B-AD59-728B4679EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B987A511-A6CB-403B-AD59-728B4679EC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBB1AEA-1826-4725-A98E-46732936B9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBB1AEA-1826-4725-A98E-46732936B9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBB1AEA-1826-4725-A98E-46732936B9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBB1AEA-1826-4725-A98E-46732936B9AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

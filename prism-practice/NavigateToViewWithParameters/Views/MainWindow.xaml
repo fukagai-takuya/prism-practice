@@ -1,0 +1,19 @@
+﻿<metro:MetroWindow x:Class="NavigateToViewWithParameters.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <StackPanel>
+        <TextBox FontSize="16" Text="{Binding DateTimeText}" />
+        <Button Content="Update Time" Command="{Binding DateTimeUpdateButton}"/>
+        <UniformGrid Columns="2">
+            <Button DockPanel.Dock="Left" Content="Show Huge Label View" Command="{Binding ShowHugeLabelButton}"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"/>
+            <Button DockPanel.Dock="Right" Content="Show View with Parameters" Command="{Binding ShowViewWithParametersButton}"
+                    Style="{StaticResource MaterialDesignRaisedSecondaryButton}"/>
+        </UniformGrid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+    </StackPanel>
+</metro:MetroWindow>
