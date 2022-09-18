@@ -9,9 +9,9 @@
         <TextBox FontSize="16" Text="{Binding DateTimeText}" />
         <Button Content="Update Time" Command="{Binding DateTimeUpdateButton}"/>
         <UniformGrid Columns="2">
-            <Button DockPanel.Dock="Left" Content="Show Huge Label View" Command="{Binding ShowHugeLabelButton}"
+            <Button Content="Show Huge Label View" Command="{Binding ShowHugeLabelButton}"
                     Style="{StaticResource MaterialDesignRaisedLightButton}"/>
-            <Button DockPanel.Dock="Right" Content="Show View with Parameters" Command="{Binding ShowViewWithParametersButton}"
+            <Button Content="Show View with Parameters" Command="{Binding ShowViewWithParametersButton}"
                     Style="{StaticResource MaterialDesignRaisedSecondaryButton}"/>
         </UniformGrid>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
